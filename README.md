@@ -46,6 +46,8 @@ Check `API.md` file for API documentation and reference.
 
 ## Testing
 
+Testing is done in two parts. To run the tests for the sinatra backend and API:
+
 Prepare database:
 
 ```
@@ -57,6 +59,24 @@ To execute test suite:
 
 ```
 bundle exec rake test
+```
+
+To run the frontend javscript tests you will need to install Karma:
+
+```
+npm install
+```
+
+Then start the Karma server
+
+```
+./node_modules/.bin/karma start
+```
+
+and finally run the suite
+
+```
+./node_modules/.bin/karma run
 ```
 
 ## TODO
