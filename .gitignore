@@ -18,3 +18,4 @@ _yardoc
 doc/
 public/assets
 node_modules
+.ideas
